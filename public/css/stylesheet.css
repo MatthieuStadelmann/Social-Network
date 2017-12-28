@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'helvetica neue';
+}
+
+main {
+  background-color:rgb(249, 135, 112);
+  height: 100vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+
+}
+
+.profilepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+
+.welcome img {
+  height: 400px;
+  width: auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.logoandpic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-bottom: 5px solid black;
+}
+
+.logoandpic a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-top: 25px;
+}
+.logoandpic img {
+  height: 80px;
+  padding-left: 10px;
+}
+.welcome {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.welcome a {
+  text-decoration: none;
+  color: black;
+}
+
+.registration {
+  border: 1px solid black;
+  display: grid;
+}
+
+.registrationForm {
+  border: 5px solid black;
+  padding: 20px;
+}
+
+input {
+  background: transparent;
+  color: black;
+  border: 3px solid black;
+  font-family: 'helvetica neue';
+  font-size: 20px;
+  margin: 4px;
+  padding-left: 3px;
+}
+
+.registrationForm button {
+  color: black;
+  background: none;
+  font-size: 20px;
+  border: solid black;
+  padding: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form {
+  text-align: -webkit-center;
+}
+
+
+.Profilepic {
+  height: 50px;
+  width: auto;
+}
+
+.profilepic {
+  height: 100px;
+  width: 100px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 65%;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+  align-self: center;
+
+}
+
+.infos {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 550px;
+  height: 250px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -295px;
+  border: 5px solid black;
+  padding: 5px;
+}
+.modal {
+  border: 5px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 45px;
+  width: 564px;
+  height: 290px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-top: -142px;
+  margin-left: -297px;
+  z-index: 9999;
+  background: rgb(170, 232, 255);
+}
+
+.myprofilepic {
+  padding-top: 28px;
+}
+
+.myinfos {
+  padding-top: 55px;
+}
+
+.modal input {
+
+}
+
+.profile img {
+  height: 200px;
+  width: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.friends img {
+  height: 40px;
+  width: auto;
+}
+
+.friends {
+  width: 900px;
+  height: 550px;
+  text-align: center;
+}
+
+.friends h1 {
+  margin-bottom: 20px;
+}
+
+
+.wanabies {
+  border-top: 1px dotted black;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+#wanabies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+#friends {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+
+#yourfriends {
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.friends button {
+  color: black;
+  background: none;
+  font-size: 10px;
+  border: solid black;
+  padding: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.otherprofilecontainer {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+.otherprofile {
+  width: 350px;
+  height: 350px;
+  margin-left: 75px;
+  border: 5px solid black;
+  text-align: center;
+}
+.otherprofile button {
+  color: black;
+  background: none;
+  font-size: 10px;
+  border: solid black;
+  padding: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mutualFriends {
+  text-align: center;
+  height: 350px;
+  width: 350px;
+  border: 5px solid black;
+  margin-right: 75px;
+}
+
+.onlineUsers img {
+  height: 40px;
+  width: auto;
+}
+.otherprofile img {
+  height: 80px;
+  width: auto;
+}
+
+.messages img {
+  height: 40px;
+  width: auto;
+}
+
+.chatcontainer {
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+
+}
+.chat {
+  border: 5px solid black;
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chat textarea {
+  height: 100px;
+  width: 100%;
+}
+
+.onlineusercontainer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.onlineUsers {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 500px;
+  justify-content: center;
+  justify-content: space-around;
+  border: 5px solid black;
+  padding: 30px;
+}
+
+.nameandpicture {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameandpicture p {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.onlinenow {
+  text-align: center;
+  height: 80%;
+  margin-top: 30px;
+}
+
+.onlinenow h1 {
+  margin-bottom: 30px;
+}
+
+.realchatcontainer {
+  text-align: center;
+}
+
+.realchatcontainer h1 {
+  margin-bottom: 30px;
+}
+
+
+.senderandhispic {
+  margin-left: 2px;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+.senderandhispic p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.messages {
+  overflow: scroll;
+}
+
+.textarea {
+  margin-right: 1px;
+  height: 101px;
+}
+
+.mutualFriends img {
+  height: 40px;
+  width: auto;
+  padding: 3px;
+}
