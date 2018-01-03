@@ -89,7 +89,6 @@ export default function(state = {}, action) {
 
   if (action.type == 'GET_ALL_MESSAGES') {
     if(!action.messages) {
-      console.log(action)
       return state
     } else {
       state = Object.assign({}, state, {

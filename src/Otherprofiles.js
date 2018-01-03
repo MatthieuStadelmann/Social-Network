@@ -1,11 +1,11 @@
 import React from 'react';
-import {App} from './App';
-import {Profile} from './Profile';
-import {Profilepic} from './Profilepic';
+import { App } from './App';
+import { Profile } from './Profile';
+import { Profilepic } from './Profilepic';
 import axios from './axios'
-import {browserHistory} from 'react-router';
-import {FriendsStatus} from './FriendsStatus';
-import {Link} from 'react-router';
+import { browserHistory } from 'react-router';
+import { FriendsStatus } from './FriendsStatus';
+import { Link } from 'react-router';
 
 export class Otherprofiles extends React.Component {
 
@@ -38,7 +38,7 @@ export class Otherprofiles extends React.Component {
         <p>Loading...</p>
       </div>)
     }
-    const {mutualFriends} = this.state
+    const { mutualFriends } = this.state
 
     return (<div className="otherprofiletherealcontainer">
       <div className="otherprofilecontainer">

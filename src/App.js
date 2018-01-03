@@ -1,20 +1,19 @@
 import React from 'react';
 import axios from './axios'
-import {Profilepic} from './Profilepic';
+import { Profilepic } from './Profilepic';
 import Logo from './logo';
-import {UploadProfilepic} from './uploadProfilepic';
-import {Profile} from './Profile';
-import {Otherprofiles} from './Otherprofiles';
-import {Link} from 'react-router';
-import {getSocket} from './socket';
+import { UploadProfilepic } from './uploadProfilepic';
+import { Profile } from './Profile';
+import { Otherprofiles } from './Otherprofiles';
+import { Link } from 'react-router';
+import { getSocket } from './socket';
 
 
 export class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
-
+    this.state={}:
     this.handleClick = this.handleClick.bind(this)
   }
 

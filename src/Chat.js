@@ -1,8 +1,8 @@
 import React from 'react';
-import {App} from './App';
-import {socket} from './socket';
-import {connect} from 'react-redux';
-import {getSocket} from './socket';
+import { App } from './App';
+import { socket } from './socket';
+import { connect } from 'react-redux';
+import { getSocket } from './socket';
 
 
 class Chat extends React.Component {

@@ -1,7 +1,7 @@
 import React from 'react';
-import {App} from './App';
-import {connect} from 'react-redux';
-import {allOnlineUsers} from './actions';
+import { App } from './App';
+import { connect } from 'react-redux';
+import { allOnlineUsers } from './actions';
 
 class Online extends React.Component {
   componentDidMount() {
@@ -9,7 +9,7 @@ class Online extends React.Component {
   };
 
   render() {
-    const {allOnlineUsers, onlineUsers} = this.props
+    const { allOnlineUsers, onlineUsers } = this.props
 
     if (!onlineUsers) {
       return null;

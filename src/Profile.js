@@ -1,8 +1,8 @@
 import React from 'react';
-import {App} from './App';
-import {Link} from 'react-router';
-import {Profilepic} from './Profilepic';
-import {Editbio} from './Editbio';
+import { App } from './App';
+import { Link } from 'react-router';
+import { Profilepic } from './Profilepic';
+import { Editbio } from './Editbio';
 
 export class Profile extends React.Component {
 

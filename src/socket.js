@@ -1,7 +1,7 @@
 import * as io from 'socket.io-client';
 import {allOnlineUsers, disconnect, userJoined, newMessage, getAllMessage} from './actions';
 import axios from './axios';
-import {store} from './start'
+import { store } from './start'
 
 
 let socket;

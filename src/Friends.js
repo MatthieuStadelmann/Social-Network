@@ -1,15 +1,15 @@
 import React from 'react';
-import {App} from './App';
-import {connect} from 'react-redux';
-import {getFriends, acceptFriendreq, terminFriend} from './actions';
-import {Link} from 'react-router';
+import { App } from './App';
+import { connect } from 'react-redux';
+import { getFriends, acceptFriendreq, terminFriend } from './actions';
+import { Link } from 'react-router';
 
 class Friends extends React.Component {
   componentDidMount() {
     this.props.getFriends();
   };
   render() {
-    const {friends, wanabies, getFriends, acceptFriendreq, terminFriend} = this.props
+    const { friends, wanabies, getFriends, acceptFriendreq, terminFriend } = this.props
 
     if (!friends) {
       return null;

@@ -1,6 +1,6 @@
 import React from 'react';
-import {App} from './App'
-import {Profilepic} from './Profilepic'
+import { App } from './App'
+import { Profilepic } from './Profilepic'
 import axios from './axios'
 export class UploadProfilepic extends React.Component {
 
@@ -23,7 +23,7 @@ export class UploadProfilepic extends React.Component {
   render() {
     return (<div className="modal">
       <h4>UPLOAD A PROFILE PICTURE</h4>
-    
+
       <input className="uploaderinput" name="file" type="file" onChange={(e) => this.uploadPic(e)} />
     </div>)
   }

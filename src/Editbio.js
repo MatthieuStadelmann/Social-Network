@@ -1,6 +1,6 @@
 import React from 'react';
-import {App} from './App';
-import {Profile} from './Profile';
+import { App } from './App';
+import { Profile } from './Profile';
 import axios from './axios'
 
 export class Editbio extends React.Component {

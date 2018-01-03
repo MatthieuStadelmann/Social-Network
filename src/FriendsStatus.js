@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from './axios';
-import {Otherprofiles} from './Otherprofiles';
-import {App} from './App';
+import { Otherprofiles } from './Otherprofiles';
+import { App } from './App';
 
 export class FriendsStatus extends React.Component {
 

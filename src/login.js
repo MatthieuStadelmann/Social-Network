@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from './axios';
-import {Link} from 'react-router';
+import { Link } from 'react-router';
 
 
 //Create LOGIN with default state===============================================
@@ -48,7 +48,7 @@ export default class Login extends React.Component {
 
   render() {
     return (<div>
-      {this.state.error && <div>YOU MESSED UP BRO</div>}
+      { this.state.error && <div>YOU MESSED UP BRO</div> }
       <form className="registrationForm">
         <input onChange={this.handleChange} name="email" placeholder="email" className="registration"/>
         <input onChange={this.handleChange} type="password" name="password" placeholder="password" className="registration"/>

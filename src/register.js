@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from './axios';
-import {Link} from 'react-router';
+import { Link } from 'react-router';
 
 
 //Create registration with default state========================================
@@ -28,7 +28,7 @@ export default class Register extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
 
-    const {first, last, email, password} = this.state 
+    const {first, last, email, password} = this.state
     const data = {
       first,
       last,
