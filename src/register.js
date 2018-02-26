@@ -29,6 +29,7 @@ export default class Register extends React.Component {
     e.preventDefault()
 
     const {first, last, email, password} = this.state
+    
     const data = {
       first,
       last,

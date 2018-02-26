@@ -47,6 +47,7 @@ export class App extends React.Component {
       handleBio,
       bio
     } = this.state;
+    
     const children = React.cloneElement(this.props.children, {
       first,
       last,

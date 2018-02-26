@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { allOnlineUsers } from './actions';
 
 class Online extends React.Component {
+  
   componentDidMount() {
     this.props.allOnlineUsers()
   };

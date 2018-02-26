@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, Link, IndexRoute, hashHistory, browserHistory, Redirect} from 'react-router';
-import {Welcome} from './welcome';
-import {App} from './App';
+import { Router, Route, Link, IndexRoute, hashHistory, browserHistory, Redirect } from 'react-router';
+import { Welcome } from './welcome';
+import { App } from './App';
 import Register from './register';
 import Login from './login';
-import {Profile} from './Profile';
-import {Otherprofiles} from './Otherprofiles';
-import {FriendsStatus} from './FriendsStatus';
+import { Profile } from './Profile';
+import { Otherprofiles } from './Otherprofiles';
+import { FriendsStatus } from './FriendsStatus';
 import { Provider } from 'react-redux';
-import {createStore, applyMiddleware} from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import reduxPromise from 'redux-promise';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import reducer from './reducers';
@@ -29,6 +29,7 @@ const notLoggedInRouter = (<Router history={hashHistory}>
 </Router>);
 //Second router LogedIn=========================================================
 export const store = createStore(reducer, composeWithDevTools(applyMiddleware(reduxPromise)));
+
 const LogedInRouter = (<Provider store={store}>
   <Router history={browserHistory}>
     <Route path="/" component={App}>
