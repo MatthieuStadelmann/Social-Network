@@ -1,5 +1,5 @@
 # Social Network
-Social Network built with React, Redux, Socket.IO and Node.js. 
+Social Network built with React, Redux, Socket.IO and Node.js at Spiced Academy, Berlin.
 
 ## Overview
 Social Network with different features: Registration/Login; Add/Cancel/Terminate Friend Requests; Users Profile; Live Chat, Online Users and Mutual Friends. 
